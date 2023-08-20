@@ -25,7 +25,7 @@ rs = avg_gain / avg_loss
 data['RSI'] = 100 - (100 / (1 + rs))
 
 # Initialize Event Registry
-er = EventRegistry(apiKey="0d960b81-076f-4971-80a7-1fc3481abeac")
+er = EventRegistry(apiKey="")
 
 # Search for recent articles related to AAPL with positive sentiment
 q = QueryArticlesIter(
